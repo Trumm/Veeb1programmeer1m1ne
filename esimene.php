@@ -18,6 +18,7 @@ if ($hourNow >16){$partofDay = "vaba aeg";}
 //var_dump($_POST);
 //echo $_POST["birthYear"];
 $mybirthYear;
+$ageNotice = "";
 if ( isset($_POST["birthYear"]) and $_POST["birthYear"] !=0){
 	$myAge = date("Y") - $_POST["birthYear"];
 	$mybirthYear = $_POST["birthYear"];
